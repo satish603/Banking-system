@@ -230,6 +230,7 @@ void banking::modE()
        getch();
        B.desk();
 }
+
 /***************************************************************************/
 			//FUNCTION TO DISPLAY DETAILS
 /***************************************************************************/
@@ -248,7 +249,7 @@ void banking::show()
 void banking::showall()
 {
 cout<<"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
- cout<<"Account Number"<<setw(10)<<"Name"<<setw(20)<<"Account Type"<<setw(30)<<"Account Balance\n";
+cout<<"Account Number"<<setw(10)<<"Name"<<setw(20)<<"Account Type"<<setw(30)<<"Account Balance\n";
 cout<<"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
        ifstream fin;
        fin.open("Accounts.dat",ios::binary|ios::in);
