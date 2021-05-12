@@ -57,7 +57,8 @@ public:
 
 
 void banking::crtbacc()
-{cout<<"\n\n\t\t--------Account Creation--------\n\n\n";
+{
+ cout<<"\n\n\t\t--------Account Creation--------\n\n\n";
  cout<<"\tEnter the Account Holder Name: ";
  gets(name);
  cout<<"\n\t";
@@ -98,7 +99,7 @@ void banking::crtbacc()
 
 void banking::shwbdet()
 {
- clrscr();
+clrscr();
 cout<<"******************************************************************\n";
 cout<<"\t\t\tAccount  Details\n";
 cout<<"******************************************************************\n\n";
@@ -341,7 +342,7 @@ void banking::modC(int C)
 	     }
 	     if(fnd==0)
 	     {
-	      cout<<"\n\n\n\n\n\n\n\n\n\n\t\tEntered Account Number does not exist....\n\n\t\tPress any key to continue.";
+	      cout<<"\n\n\n\n\n\n\n\n\n\n\t\tEntered Account Number does not exist....\n\n\t\tPress any key to continue";
 	     }
  f.close();
  getch();
