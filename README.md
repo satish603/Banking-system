@@ -10,6 +10,7 @@ We have also used the comment statements so that every one can understand people
 The different comment statements are as follows:
 1.	/* */: the entire paragraph you want as a comment.
 2.	//  : This is used to make a line as comment.
+
 ![image](https://user-images.githubusercontent.com/56600106/119764640-6bbd2e00-becf-11eb-9a37-097c803cb60f.png)
 ![image](https://user-images.githubusercontent.com/56600106/119764661-74156900-becf-11eb-9ccb-a0edfc1f7e5c.png)
 ![image](https://user-images.githubusercontent.com/56600106/119764672-7972b380-becf-11eb-826a-420a774ba5bc.png)
